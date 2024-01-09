@@ -1,3 +1,3 @@
 # odin-recipes
 
-Hello, this is the list of recipes!
+Live site : https://shoisgenki.github.io/odin-recipes/
