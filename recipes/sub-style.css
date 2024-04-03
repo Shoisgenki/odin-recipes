@@ -1,0 +1,81 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9fbe7; /* Pale Yellow */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    color: #34495e; /* Dark Gray */
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styles */
+p {
+    color: #333; /* Dark Gray */
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* List styles */
+ul, ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    color: #333; /* Dark Gray */
+    margin-bottom: 6px;
+}
+
+/* Link styles */
+a {
+    color: #3498db; /* Blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9; /* Dark Blue */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
